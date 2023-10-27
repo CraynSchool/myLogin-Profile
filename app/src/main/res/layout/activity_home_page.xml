@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
-    <FrameLayout
+    <RelativeLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +15,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="2dp"
         android:layout_marginBottom="-3dp"
-        />
+        >
+
+    </RelativeLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
        android:layout_width="match_parent"
